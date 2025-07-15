@@ -1,4 +1,51 @@
+body{
+    margin: 40px;
+}
+.cal-main{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 .cal {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.day {
+    background-color:rgb(6, 25, 43);
+    color:rgb(198, 253, 255);
+    border-radius: 5px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid rgb(31, 32, 32);
+    font-weight:bold;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date {
+    background-color: rgb(198, 253, 255);
+    color: rgb(6, 25, 43);
+    border-radius: 5px;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(6, 25, 43);
+    font-weight: normal;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.off {
+    background-color: rgb(206, 0, 0);
+    color: rgb(198, 253, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+.off1 {
+    background-color: rgb(56, 35, 90);
+    color: rgb(198, 253, 255);
+    border: 2px solid rgb(0, 0, 0);
 }
